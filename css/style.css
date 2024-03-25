@@ -6,3 +6,14 @@ body {
     color : #030303;
     background-color : #fefefe;
 }
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+header h1 {
+    
+}
