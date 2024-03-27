@@ -12,11 +12,12 @@ header {
     text-align: center;
     padding: 10px;
     margin: 0;
-    vackground-color: #656756;
+    background-color: #3c6ef8;
 }
 
 header h1 {
     text-align: center;
     display: block;
+    color: #fff;
 
 }
