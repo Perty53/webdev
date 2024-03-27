@@ -16,6 +16,7 @@ header {
 }
 
 header h1 {
-    width: inherit;
+    text-align: center;
+    display: block;
 
 }
