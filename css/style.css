@@ -32,11 +32,13 @@ header p {
 
 header nav {
     display: block;
+    background-color: #464e66;
 }
 
 nav ul {
     display: block;
-    background-color: #464e66;
+    padding: 4px;;
+    
 }
 
 nav ul li {
