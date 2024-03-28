@@ -31,9 +31,13 @@ header nav {
 }
 
 nav ul {
+    display: block;
+    background-color: #464e66;
+}
+
+nav ul li {
     display: inline-block;
     text-decoration: none;
     padding: 4px;
     color: #fff;
-    background-color: #464e66;
 }
