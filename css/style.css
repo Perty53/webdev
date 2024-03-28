@@ -41,7 +41,7 @@ nav ul {
     
 }
 
-nav ul li {
+nav ul li a {
     display: inline-block;
     text-decoration: none;
     padding: 4px;
