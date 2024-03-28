@@ -29,3 +29,11 @@ header p {
 header nav {
     display: block;
 }
+
+nav ul {
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px;
+    color: #fff;
+    background-color: #464e66;
+}
