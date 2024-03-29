@@ -90,7 +90,7 @@ footer {
         flex-direction: column;
     }
 
-    aside, #main_section {
+    aside#about_me, #main_section {
         width: 100%;
     }
 }
