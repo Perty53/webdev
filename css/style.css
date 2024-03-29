@@ -34,6 +34,7 @@ header p {
 header nav {
     display: block;
     background-color: #464e66;
+    height: 100px;
 }
 
 nav ul {
