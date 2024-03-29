@@ -70,6 +70,11 @@ aside#about_me {
     background-color: #fff;
 }
 
+.fakeImg {
+    background-color: #ffcbcb;
+    box-shadow: inset 3px 3px rgba(23,23,23,.5);
+}
+
 footer {
     padding: 20px;
     text-align: center;
