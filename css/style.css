@@ -35,6 +35,7 @@ header p {
 nav#main_menu {
     display: block;
     background-color: #464e66;
+    margin:0;
 }
 
 nav ul {
