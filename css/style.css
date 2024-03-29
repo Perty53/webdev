@@ -63,7 +63,7 @@ aside#about_me {
     background-color: rgb(155, 195, 255);
 }
 
-aside#main_section {
+#main_section {
     width: 75%;
     padding: 20px;
     background-color: #fff;
