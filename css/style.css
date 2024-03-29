@@ -51,11 +51,25 @@ nav ul li a {
     color: #fff;
 }
 
-aside#about_me {
-    width: 25%;
-
-}
-
 #row {
     display: flex;
+    flex-wrap: wrap;
+}
+
+aside#about_me {
+    width: 25%;
+    padding: 10px;
+    background-color: rgb(155, 195, 255);
+}
+
+aside#main_section {
+    width: 75%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #d3e6ff;
 }
