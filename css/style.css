@@ -88,5 +88,6 @@ footer {
 @media screen and (max-width : 600px) {
     #row, nav#main_menu {
         flex-direction: column;
+        width:100%;
     }
 }
