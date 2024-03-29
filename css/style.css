@@ -61,7 +61,7 @@ nav ul li a {
 aside#about_me {
     width: 25%;
     padding: 10px;
-    background-color: rgb(155, 195, 255);
+    background-color: #d3e6ff;
 }
 
 #main_section {
@@ -73,5 +73,5 @@ aside#about_me {
 footer {
     padding: 20px;
     text-align: center;
-    background-color: #d3e6ff;
+    background-color: rgb(155, 195, 255);
 }
