@@ -37,7 +37,7 @@ header h1 {
     font-weight: bold;
     font-size: 2em;
     font-family: Helvetica, sans-serif;
-    margin: 6px 15px;
+    margin: 15px 6px;
 }
 
 [class*='col-'] {
