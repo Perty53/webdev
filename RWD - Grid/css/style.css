@@ -78,4 +78,6 @@ footer {
     background-color: var(--green);
     text-align: center;
     padding: 15px;
+    color: #fff;
+    font-weight: bold;
 }
