@@ -66,6 +66,11 @@ li a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: 200;
+    padding-left: 5px;
 }
 
+footer {
+    background-color: var(--green);
+    text-align: center;
+}
