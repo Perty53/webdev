@@ -52,6 +52,11 @@ header h1 {
     padding: 7px 0px;
 }
 
+div img {
+    width: 100%;
+    height: auto;
+}
+
 li a {
 
     color: var(--white);
