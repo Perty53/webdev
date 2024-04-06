@@ -52,8 +52,8 @@ header h1 {
     padding: 7px 0px;
 }
 
-div img {
-    width: 5%;
+#main-content div img {
+    width: 1%;
     height: auto;
 }
 
