@@ -77,4 +77,5 @@ li:hover{
 footer {
     background-color: var(--green);
     text-align: center;
+    padding: 15px;
 }
