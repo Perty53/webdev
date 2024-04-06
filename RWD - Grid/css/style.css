@@ -1,7 +1,7 @@
 :root {
     --blue : #33b5e5;
     --green : #04AA6D;
-    --white : var(--white);
+    --white : #fff;
 }
 
 * {
