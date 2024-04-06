@@ -1,6 +1,7 @@
 :root {
     --blue : #33b5e5;
     --green : #04AA6D;
+    --white : var(--white);
 }
 
 * {
@@ -38,7 +39,7 @@ header h1 {
     font-weight: bold;
     /* font-size: 2em; */
     font-family: Helvetica, sans-serif;
-    color: #fff;
+    color: var(--white);
 
 }
 
@@ -54,7 +55,7 @@ header h1 {
 #main-nav ul li {
     list-style-type: none;
     background-color: var(--blue);
-    color: #fff;
+    color: var(--white);
     box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
     margin: 5px 0;
     padding: 7px 0px;
@@ -62,7 +63,7 @@ header h1 {
 
 li a{
     
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.3em;
@@ -74,10 +75,16 @@ li:hover{
     background-color: #0099cc;
 }
 
+#about {
+    background-color: var(--blue);
+    color: var(--white);
+    box-shadow: 0 2px 1px rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.30);
+}
+
 footer {
     background-color: var(--green);
     text-align: center;
     padding: 15px;
-    color: #fff;
+    color: var(--white);
     font-weight: bold;
 }
