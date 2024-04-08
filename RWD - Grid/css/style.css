@@ -39,8 +39,10 @@ header h1 {
     padding: 15px;
 }
 
-#main-nav {
+#main-nav ul {
     display: block;
+    margin: 0;
+    padding: 0;
 }
 
 #main-nav ul li {
