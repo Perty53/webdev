@@ -12,33 +12,33 @@
 
 
 #main-header {
-    grid-area: "header";
+    grid-area: header;
 }
 
 #main {
-    grid-area: "main";
+    grid-area: main;
 }
 
 #footer {
-    grid-area: "footer";
+    grid-area: footer;
 }
 
 #main-nav {
-    grid-area: 'main-nav';
+    grid-area: main-nav;
 }
 
 #main-content {
-    grid-area: 'main-content';
+    grid-area: main-content;
 }
 
 #about {
-    grid-area: 'about';
+    grid-area: about;
 }
 
 /*For Mobiles Devices*/
 #page {
     display: grid;
-    grid-template-columns: "header" "main" "footer";
+    grid-template-area: "header" "main" "footer";
 }
 
 
