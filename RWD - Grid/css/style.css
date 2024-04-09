@@ -45,7 +45,7 @@ header h1 {
     padding: 0;
 }
 
-#main-nav ul li {
+#main-nav ul li, btn-link {
     list-style-type: none;
     background-color: var(--blue);
     color: var(--white);
