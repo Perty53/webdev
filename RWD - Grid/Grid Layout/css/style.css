@@ -25,6 +25,7 @@
 
 #main-nav {
     grid-area: main-nav;
+    margin-right: 15px;
 }
 
 #main-content {
