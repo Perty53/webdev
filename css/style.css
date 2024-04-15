@@ -1,0 +1,24 @@
+:root {
+    --white : #fff;
+    --blue : #4e73df;
+
+}
+
+
+.red-rose-font {
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+    color: var(--white);
+}
+
+h1 {
+    color: var(--white);
+    background-image: linear-gradient(to right, var(--blue), rgba(78, 115, 223));
+}
