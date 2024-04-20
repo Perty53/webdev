@@ -20,5 +20,5 @@
 
 h1 {
     color: var(--white);
-    background-image: linear-gradient(to right, var(--blue), rgba(78, 115, 223));
+    background-image: linear-gradient(to right, var(--blue), rgba(78, 115, 223, .4));
 }
