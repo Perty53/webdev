@@ -16,26 +16,52 @@
     box-sizing: border-box;
     font-size: 18px;
     background-color: var(--white);
-    color : var(--blue);
+    color : #000;
+}
+
+main {
+  display: flex;
+  width: 50%;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;     
 }
 
 h1 {
+    width: 100%;
     color: var(--white);
     background-image: linear-gradient(to right, var(--blue), rgba(78, 115, 223, .4));
 }
 
-ol {
+.box {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 5px;
 }
 
-li {
+.item {
+    position : relative;
     width: 25%;
     background-color: var(--blue);
-    width: 50px;
-    height: 30px;
+    height: 180px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, .2), 0 6px 20px rgba(0, 0, 0, .19);
+    margin: 15px;
+    list-style-type: none;
+    border-radius: 10px;
 }
+
+.item a {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+
 
 
