@@ -8,7 +8,7 @@
 .red-rose-font {
 font-family: "Red Rose", serif;
 font-optical-sizing: auto;
-font-weight: 400;
+font-weight: 400
 font-style: normal;
 }
 
@@ -37,7 +37,7 @@ float: left;
 padding: 14px;
 }
 
-.row {
+,.row {
 display: table;
 content: '';
 clear: both;
