@@ -38,6 +38,7 @@ padding: 14px;
 }
 
 .row {
+  width: 100%;
 display: table;
 content: '';
 clear: both;
