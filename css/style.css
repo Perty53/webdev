@@ -38,10 +38,10 @@ padding: 14px;
 }
 
 .row {
-  width: 100%;
 display: table;
 content: '';
 clear: both;
+width: 100%;
 }
 
 main {
@@ -73,7 +73,7 @@ h1 {
 
 .item {
   position : relative;
-  flex: 100%;
+  flex:100%;
   background-color: var(--blue);
   height: 180px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, .2), 0 6px 20px rgba(0, 0, 0, .19);
@@ -83,13 +83,22 @@ h1 {
   max-width: 280px;
 }
 
-.item a {
+.item div {
 display: inline-block;
 position: absolute;
 width: 100%;
 bottom: 0px;
 left: 0;
 border-radius: 0 0 10px 10px;
+}
+.item a {
+	position: absolute;
+	height: inherit;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	background-color: transparent;
+	
 }
 
 
